@@ -1,0 +1,82 @@
+.step-tab-panel {
+	border: none
+}
+.step-tab-panel .panel {
+	padding: 20px;
+	margin-bottom: 25px
+}
+.step-tab-panel .form-field {
+	margin-bottom: 15px
+}
+.step-tab-panel label {
+	display: block;
+	margin-bottom: 5px;
+	color: #175d9d;
+	font-size: 14px;
+	font-weight: 600
+}
+.step-tab-panel .custom-select {
+	background-color: #f4f7fa;
+	height: 30px;
+	margin-left: 3px
+}
+.step-tab-panel .entry-input {
+	margin-left: 3px;
+	font-size: 11px;
+	max-width: 100%
+}
+.step-app>.step-content {
+	border: none;
+	padding: 25px 0
+}
+.steps-nav {
+	position: relative;
+	padding: 30px 0
+}
+.step-next, .step-prev, .step-save {
+	padding-top: 20px;
+	background-size: 10px 18px;
+	border: none;
+	background-color: transparent;
+	top: 75px;
+	background-repeat: no-repeat;
+	background-position: top;
+	font-size: 16px;
+	color: #175d9d;
+	cursor: pointer
+}
+.step-prev {
+	position: absolute;
+	left: 15px;
+	background-image: url(/assets/images/icons/steps-prev.png)
+}
+.step-next {
+	background-image: url(/assets/images/icons/steps-next.png)
+}
+.step-next, .step-save {
+	position: absolute;
+	right: 15px
+}
+.step-save {
+	background-image: url(/assets/images/icons/steps-save.png);
+	background-size: 20px 18px
+}
+.step-steps a {
+	pointer-events: none;
+	color: #86AACC;
+	font-size: 16px;
+	font-family: Arial, sans-serif;
+	text-decoration: none
+}
+.step-text {
+	display: block;
+	padding-bottom: 20px
+}
+.step-steps .active a, .step-steps .done a {
+	color: #175d9d;
+	font-size: 22px;
+	font-weight: 700
+}
+table {
+    margin-bottom: 0px !important;
+}

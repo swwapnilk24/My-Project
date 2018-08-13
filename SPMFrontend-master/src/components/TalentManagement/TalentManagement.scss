@@ -1,0 +1,281 @@
+.toggler {
+	position: relative;
+}
+.editIco {
+	font-size: 20px;
+}
+.addIco {
+	font-size: 20px !important;
+}
+.historyIco {
+	font-size: 20px;
+}
+.expandIco {
+    font-size: 20px;
+}
+.helpIco {
+    font-size: 20px;
+}
+.submitIco {
+    font-size: 20px;
+    position: relative;
+    left: 190px;
+    top: 5px;
+    color: #fff;
+}
+.actionDisable {
+	display: none
+}
+.actionEnable {
+	display: block
+}
+// .box-actions {
+//     margin-top: 0px !important;
+// }
+// .toggler-bar {
+//     background-color: #2684db !important;
+//     color: #fff !important;
+// }
+// .toggler-title {
+//     color: #fff !important;
+// }
+.box-actions:before {
+    top:-6px !important;
+}
+.ReactModal__Overlay {
+    top:0px !important;
+    left:0px !important;
+    right:0px !important;
+    z-index:999;
+    width:100%;
+    height:100%;
+}
+.ReactModal__Content {
+    left:40% !important;
+    width:30%;
+    height:69vh !important;
+    padding:0px !important;
+}
+.ReactModal__Content .card-success {
+    background-color: transparent !important;
+    border-color: transparent !important;
+}
+.card-header {
+    background-color: #175d9d !important;
+    color: #fff;
+}
+.card-header button {
+    color: #fff;
+}
+.react-grid-Canvas {
+    height: auto !important;
+   // max-height: 200px !important;
+}
+.myclass{
+    width: 85%;
+    margin-top: 7%;
+    margin-left: 7%;
+    .react-grid-HeaderCell {
+        background: #175d9d;
+        color: #fff;
+        text-align: center;
+        font-size: 12px;
+        padding: 5px;
+        margin: 1em auto;
+    }
+    .react-grid-Grid {
+        background-color: #fff;
+    }
+    .react-grid-Container {
+        font-size: 12px;
+    }
+    .react-grid-Cell {
+        background-color: transparent;
+        border-right: 1px solid #b0e0e6;
+    }
+    .react-grid-Row:nth-child(even) {background: #E6EEF6}
+    .react-grid-Row:nth-child(odd) {background: #f4f7fa}
+    .react-grid-Viewport {
+        color: #457db1;
+    }
+    .actionEnable ul li a i.fa,
+    .actionEnable ul li i.fa {
+        color: #175d9d;
+        font-size: 18px !important;
+    }
+    .toggleAction ul li a i.fa {
+        color: #175d9d;
+        font-size: 18px !important;
+    }
+}
+.entry-input {
+    color: #457db1 !important;
+    font-size: 11px !important;
+}
+.mgn-left {
+    margin-left: 5px;
+}
+table tr td span.table-label {
+    display: inline-block;
+    padding: 9px 0;
+}
+.ji-padding-bottom {
+    padding-bottom: 0px !important;
+}
+.ModalWidth {
+    width:90%;
+    max-width: 95%;
+}
+.expandModalWidth {
+    width:95vw;
+    // max-width: 1000px;
+}
+.Modal-modal-0-3 {
+    max-width: initial !important;
+}
+.expandModalWidth .react-grid-Viewport {
+    overflow-y: hidden !important;
+}
+.expandModalWidth .react-grid-Container {
+    margin: 5px 0;
+}
+.expandModalWidth .react-grid-Viewport .react-grid-Cell {
+    border-right: 1px solid #a2bed8;
+}
+.companySpecificGrid tr td {
+    min-height: 45px;
+    display: inline-block;
+    width: 50%;
+}
+.Modal-closeIcon-0-4 {
+    display: none;
+}
+.rt-thead {
+    background: #175d9d;
+    color: #ffffff;
+    font-size: 13px;
+}
+.rt-tbody {
+    color: #457db1;
+    font-family: Titillium Web,sans-serif;
+    font-size: 13px;
+}
+.ReactTable .rt-thead .rt-th {
+    border-right: 1px solid #FFFFFF !important;
+}
+.ReactTable .-pagination input, .ReactTable .-pagination select {
+    color: #457db1;
+    margin-bottom: 1px !important;
+}
+.ReactTable .-pagination .-btn {
+    background-color: #175d9d !important;
+    color: #FFFFFF !important;
+    width: 6em !important;
+    height: 2em !important;
+}
+.audit-no-pad {
+    padding-top: 3px !important;
+    padding: 0px;
+}
+.ReactTable .-pagination {
+    color: #457db1;
+}
+.ReactTable .-pagination .-previous {
+    position: relative;
+    left: 20%;
+    top: 8px !important;
+}
+.ReactTable .-pagination .-next {
+    position: relative;
+    top: 8px !important;
+}
+.ReactTable.-striped .rt-tr.-odd {
+    background: #f4f7fa !important; 
+}
+.ReactTable.-striped .rt-tr.-even {
+    background: #E6EEF6 !important; 
+}
+// .snackBarStyle {
+    // position: 'relative';
+    // background: '#404040';
+    // color: '#fff';
+    // padding: '4px';
+    // -webkit-transition: 'translate 0.3s cubic-bezier(0, 0, 0.30, 1)';
+    // transition: 'translate 0.3s cubic-bezier(0, 0, 0.30, 1)';
+    // font-weight: '500';
+    // text-transform: 'initial';
+    // will-change: 'transform';
+    // white-space: 'nowrap';
+    // transform: 'translateY(20px)';
+    // -webkit-transform: 'translateY(20px)';
+    // box-shadow: '0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24)';
+    // font-size: '4px';
+    // opacity: 0;
+    // border-radius: '3px';
+    // display: '-webkit-box, -ms-flexbox, flex';
+    // // display: '-ms-flexbox',
+    // // display: 'flex',
+    // -webkit-box-align: 'center';
+    // -ms-flex-align: 'center';
+    // align-items: 'center';
+    // -webkit-box-pack: 'justify';
+    // -ms-flex-pack: 'justify';
+    // justify-content: 'space-between';
+    // line-height: '8px'
+// }
+.snackBarStyle div {
+    position:relative !important;
+    left: 0px !important;
+    // bottom: 0px !important;
+    background: #f71111 !important;
+    color: #fff;
+    height: 10px !important;
+    // padding: '4px';
+    // -webkit-transition: 'translate 0.3s cubic-bezier(0, 0, 0.30, 1)';
+    // transition: 'translate 0.3s cubic-bezier(0, 0, 0.30, 1)';
+    // font-weight: '500';
+    // text-transform: 'initial';
+    // will-change: 'transform';
+    // white-space: 'nowrap';
+    // transform: 'translateY(20px)';
+    // -webkit-transform: 'translateY(20px)';
+    // box-shadow: '0 0 2px rgba(0,0,0,.12), 0 2px 4px rgba(0,0,0,.24)';
+    // font-size: '4px';
+    // opacity: 0;
+    // border-radius: '3px';
+    // display: '-webkit-box, -ms-flexbox, flex';
+    // -webkit-box-align: 'center';
+    // -ms-flex-align: 'center';
+    // align-items: 'center';
+    // -webkit-box-pack: 'justify';
+    // -ms-flex-pack: 'justify';
+    // justify-content: 'space-between';
+    // line-height: '8px'
+}
+.compare-checkbox + label:before {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border: 3px solid #a2bed8;
+    content: "";
+    letter-spacing: 10px;
+}
+.compare-user-details-new {
+    float: left;
+    padding: 3px;
+}
+.compare-user-name-new{
+    float: left;
+    font-size: 15px;
+}
+
+.toggler2 .box-filter-arrow {
+    -webkit-transform: rotate(0deg) !important;
+    transform: rotate(0deg) !important;
+}
+
+.toggler2.show .box-filter-arrow {
+    -webkit-transform: rotate(180deg) !important;
+    transform: rotate(180deg) !important;
+}

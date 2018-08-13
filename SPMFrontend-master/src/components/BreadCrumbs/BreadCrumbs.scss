@@ -1,0 +1,30 @@
+.breadcrumbs {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+ol, ul {
+    list-style: none;
+}
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+.breadcrumbs-item.active {
+    border-bottom-color: #175d9d;
+    opacity: 1;
+}
+.breadcrumbs-item {
+    display: block;
+    float: left;
+    height: 40px;
+    padding: 0 15px;
+    line-height: 40px;
+    color: #175d9d;
+    font-size: 13px;
+    font-weight: 300;
+    text-decoration: none;
+    border-bottom: 3px solid transparent;
+    opacity: .5;
+}

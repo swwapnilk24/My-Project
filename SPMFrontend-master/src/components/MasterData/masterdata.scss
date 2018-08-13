@@ -1,0 +1,72 @@
+.pad-left {
+    padding-left: 8px;
+}
+.pad-right {
+    padding-right: 8px;
+}
+.showing {
+    display: block;
+}
+.not-showing {
+    display: none;
+}
+.error{
+    color: red;
+}
+.box-actions-font-size {
+    margin-top: 9px;
+	margin-left: auto;
+	list-style: none;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 18px;
+    position: relative;
+    cursor: pointer;
+}
+.ul-color {
+    background-color: #175D9D;
+    color:white;
+}
+// .DataGridContainer {
+//     height: 700px;
+// }
+// .masterdataGrid .react-grid-Viewport {
+//     overflow-y: auto !important;
+// }
+.box-actions i.fa {
+    font-size: 17px;
+}
+.box-actions li img {
+    width:20px;
+    cursor: pointer;
+}
+.snackbar-wrap div {
+    position: relative !important;
+    left: 0px !important;
+    top:0px !important;
+}
+// styles for excel component
+#dvExcelId span button {
+    background:none;
+    color: transparent;
+    border: none;
+    width: 40px;
+    height: 25px;
+    cursor: pointer;
+    outline: none;
+  }
+  #dvExcelId span button:after {
+    content: '\f019';
+    color: #014c8c;
+    font-size: 16px;
+    font-family: FontAwesome;
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: top;
+    margin-top: -16px;
+  }
+.box-actions #dvExcelId span button:after {
+    color: #ffffff;
+    margin-top: -11px;
+}

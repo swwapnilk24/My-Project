@@ -1,0 +1,193 @@
+{
+    "userMenu": [
+        {
+            "id": 1,
+            "name": "Talent Pool",
+            "key": "skillName",
+            "primaryKey": "skillInformation",
+            "primaryKeyType": true,
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "reactjs",
+                    "count": 0
+                },
+                {
+                    "id": 2,
+                    "name": "nodejs",
+                    "count": 0
+                },
+                {
+                    "id": 3,
+                    "name": "php",
+                    "count": 0
+                },
+                {
+                    "id": 4,
+                    "name": "mysql",
+                    "count": 0
+                },
+                {
+                    "id": 5,
+                    "name": "mongoDB",
+                    "count": 0
+                },
+                {
+                    "id": 6,
+                    "name": "expressJs",
+                    "count": 0
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Management Chain",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestB",
+                    "count": 5
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "Potential",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "High Potential"
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "Job Profile",
+            "primaryKey": "jobInformation.employmentDetail.keyJobAttribute.0.position",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "Regional Sales manager"
+                },
+                {
+                    "id": 2,
+                    "name": "Custom Service Represe"
+                },
+                {
+                    "id": 3,
+                    "name": "Senior Customer Services"
+                },
+                {
+                    "id": 4,
+                    "name": "Consultant"
+                },
+                {
+                    "id": 5,
+                    "name": "Office Manager"
+                },
+                {
+                    "id": 6,
+                    "name": "Department Manager"
+                },
+                {
+                    "id": 7,
+                    "name": "Director"
+                },
+                {
+                    "id": 8,
+                    "name": "code"
+                },
+                {
+                    "id": 9,
+                    "name": "200001"
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "Business site",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "San Francisco"
+                },
+                {
+                    "id": 2,
+                    "name": "Chicago"
+                },
+                {
+                    "id": 3,
+                    "name": "New York"
+                },
+                {
+                    "id": 4,
+                    "name": "Dallas"
+                },
+                {
+                    "id": 5,
+                    "name": "Boston"
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "Worker Type",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "Management Level",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        },
+        {
+            "id": 8,
+            "name": "Competency",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        },
+        {
+            "id": 9,
+            "name": "Degree",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        },
+        {
+            "id": 10,
+            "name": "Performance Rating",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        },
+        {
+            "id": 11,
+            "name": "Work Experience",
+            "subMenu": [
+                {
+                    "id": 1,
+                    "name": "TestA"
+                }
+            ]
+        }
+    ]
+}

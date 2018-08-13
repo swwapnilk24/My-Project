@@ -1,0 +1,2296 @@
+[
+    {
+        "_id": "5a4f7dfe6de8d49ee38f73e4",
+        "entityInformation": {
+            "owner": "104",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-05T13:13:14.936Z",
+            "_id": "5a4f7acfe291fe25d08cc373"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "reactjs"
+            }
+        },
+        "updatedAt": "2018-01-05T13:30:38.197Z",
+        "identify": {
+            "_id": "5a4f7acfe291fe25d08cc372",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-13T06:30:00.000Z",
+                    "company": "COMP1",
+                    "eventReason": "Code"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-05T13:30:38.197Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "type": "Unpaid Ill",
+                                "_id": "5a4f88a3097d2c301cf34a76"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a4f7acfe291fe25d08cc35c"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a4f7acfe291fe25d08cc35e"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-01T18:30:00.000Z",
+                        "startDate": "2018-01-10T18:30:00.000Z",
+                        "currency": "Antigua and Barbuda",
+                        "amount": "ss",
+                        "payComponent": "01",
+                        "_id": "5a4f7acfe291fe25d08cc362"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-09T18:30:00.000Z",
+                        "currency": "Code",
+                        "amount": "sss",
+                        "payComponent": "01",
+                        "_id": "5a4f7acfe291fe25d08cc361"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "1",
+                    "payGroup": "02",
+                    "isEligibleForBenefit": "Code",
+                    "isEligibleForCar": "2",
+                    "benefitRate": "ss",
+                    "compaRatio": "ss",
+                    "rangePenetration": "ss",
+                    "annualizedSalary": "12323",
+                    "teo": "1233",
+                    "_id": "5a4f88a3097d2c301cf34a75"
+                },
+                "compensation": [
+                    {
+                        "frequency": "1",
+                        "currency": "Code",
+                        "amount": "ss",
+                        "payComponent": "Code",
+                        "_id": "5a4f7acfe291fe25d08cc360"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-01T18:30:00.000Z",
+                    "originalStartDate": "2018-01-09T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a4f7acfe291fe25d08cc369"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "ss",
+                        "relationshipType": "code1",
+                        "_id": "5a4f7acfe291fe25d08cc368"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "code",
+                        "jobCode": "code1",
+                        "_id": "5a4f7acfe291fe25d08cc363"
+                    },
+                    "_id": "5a605a2543627d61c883f655"
+                },
+                "countrySpecificFields": {
+                    "_id": "5a4f7acfe291fe25d08cc367",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "s",
+                        "employeeClass": "code2",
+                        "flsaStatus": "Code",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code2",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "Code2",
+                        "eeoJobGroup": "code1",
+                        "contractType": "2",
+                        "continuedSicknessPayPeriod": "ss",
+                        "continuedSicknessPayMeasure": "ss",
+                        "noticePeriod": "ss",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "01",
+                        "eeoCategory2": "01",
+                        "eeoCategory3": "03",
+                        "eeoCategory4": "Code",
+                        "eeoCategory5": "02",
+                        "eeoCategory6": "Code"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "AF",
+                    "workSchedule": "code1",
+                    "timeProfile": "02",
+                    "_id": "5a4f7acfe291fe25d08cc366"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "ss",
+                        "regularOrTemporary": "1",
+                        "payGrade": "1",
+                        "localJobTitle": "",
+                        "jobTitle": "sss",
+                        "jobClassification": "2",
+                        "supervisor": "2",
+                        "employmentStatus": "2",
+                        "_id": "5a4f7acfe291fe25d08cc365"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "3",
+                        "timeZone": "02",
+                        "location": "AW",
+                        "department": "01",
+                        "division": "01",
+                        "businessUnit": "BU2",
+                        "company": "COMP2",
+                        "_id": "5a4f7acfe291fe25d08cc364"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a4f7acfe291fe25d08cc36f",
+                "phoneInformation": [
+                    {
+                        "_id": "5a4f7acfe291fe25d08cc371",
+                        "phoneType": "1",
+                        "number": "ss",
+                        "extension": "ss",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a4f7acfe291fe25d08cc370",
+                        "emailType": "1",
+                        "emailAddress": "sss",
+                        "isPrimary": "1"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a4f7acfe291fe25d08cc36a",
+                "biographicalInformation": {
+                    "dob": "2017-12-31T18:30:00.000Z",
+                    "dateOfDeath": null,
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD104",
+                    "regionOfBirth": "sss",
+                    "countryOfBirth": "AX"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": []
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "ss",
+                        "line2": "",
+                        "line1": "ss",
+                        "city": "VJW",
+                        "state": "AP",
+                        "country": "AX",
+                        "addressType": "1",
+                        "_id": "5a4f7acfe291fe25d08cc36e"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "2",
+                    "nationalId": "ss",
+                    "nationalIdCardType": "ss",
+                    "country": "AF",
+                    "_id": "5a4f7acfe291fe25d08cc36d"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a4f7acfe291fe25d08cc36c",
+                    "us": {
+                        "ethnicGroup": "1",
+                        "veteran": "Code",
+                        "challengedVeteran": "2"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-05T13:13:14.936Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "2",
+                    "challengeStatus": "",
+                    "_id": "5a4f7acfe291fe25d08cc36b",
+                    "maritalStatus": "2",
+                    "gender": "01",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "04",
+                    "formalName": "",
+                    "displayName": "",
+                    "suffix": "02",
+                    "lastName": "vardhan",
+                    "middleName": "",
+                    "firstName": "raj"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a53795a78c22e9f5a4f1f8f",
+        "entityInformation": {
+            "owner": "105",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-08T13:52:05.517Z",
+            "_id": "5a53795ab3b23b4e56ca4a86"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "nodejs"
+            }
+        },
+        "updatedAt": "2018-01-08T13:59:54.568Z",
+        "identify": {
+            "_id": "5a53795ab3b23b4e56ca4a85",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-08T13:52:05.517Z",
+                    "company": "COMP1",
+                    "eventReason": "Code"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-08T13:59:54.568Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a53795ab3b23b4e56ca4a6f"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a53795ab3b23b4e56ca4a6e"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a53795ab3b23b4e56ca4a70"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-04T18:30:00.000Z",
+                        "startDate": "2018-01-01T18:30:00.000Z",
+                        "currency": "Argentina",
+                        "amount": "q",
+                        "payComponent": "Code",
+                        "_id": "5a53795ab3b23b4e56ca4a74"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-01T18:30:00.000Z",
+                        "currency": "Code",
+                        "amount": "1",
+                        "payComponent": "01",
+                        "_id": "5a53795ab3b23b4e56ca4a73"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "code",
+                    "payGroup": "01",
+                    "isEligibleForBenefit": "Code",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "w",
+                    "compaRatio": "a",
+                    "rangePenetration": "s",
+                    "annualizedSalary": "c",
+                    "teo": "d",
+                    "_id": "5a53795ab3b23b4e56ca4a71"
+                },
+                "compensation": [
+                    {
+                        "frequency": "2",
+                        "currency": "Code",
+                        "amount": "w",
+                        "payComponent": "Code",
+                        "_id": "5a53795ab3b23b4e56ca4a72"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-04T18:30:00.000Z",
+                    "originalStartDate": "2018-01-05T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a53795ab3b23b4e56ca4a7b"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "abc",
+                        "relationshipType": "code1",
+                        "_id": "5a53795ab3b23b4e56ca4a7a"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a53795ab3b23b4e56ca4a79",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "01",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code1",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "a",
+                        "continuedSicknessPayMeasure": "b",
+                        "noticePeriod": "c",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "Code",
+                        "eeoCategory2": "01",
+                        "eeoCategory3": "01",
+                        "eeoCategory4": "01",
+                        "eeoCategory5": "01",
+                        "eeoCategory6": "01"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "Code",
+                    "workSchedule": "code1",
+                    "timeProfile": "02",
+                    "_id": "5a53795ab3b23b4e56ca4a78"
+                },
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "code",
+                        "jobCode": "code1",
+                        "_id": "5a53795ab3b23b4e56ca4a75"
+                    },
+                    "_id": "5a605a2543627d61c883f65c"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "123",
+                        "regularOrTemporary": "1",
+                        "payGrade": "1",
+                        "localJobTitle": "1234",
+                        "jobTitle": "123",
+                        "jobClassification": "1",
+                        "supervisor": "1",
+                        "employmentStatus": "1",
+                        "_id": "5a53795ab3b23b4e56ca4a77"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "1",
+                        "timeZone": "Code",
+                        "location": "Code",
+                        "department": "01",
+                        "division": "01",
+                        "businessUnit": "BU1",
+                        "company": "COMP1",
+                        "_id": "5a53795ab3b23b4e56ca4a76"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a53795ab3b23b4e56ca4a82",
+                "phoneInformation": [
+                    {
+                        "_id": "5a53795ab3b23b4e56ca4a84",
+                        "phoneType": "1",
+                        "number": "123456789",
+                        "extension": "",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a53795ab3b23b4e56ca4a83",
+                        "emailType": "1",
+                        "emailAddress": "shree214ram@gmail.com",
+                        "isPrimary": "1"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a53795ab3b23b4e56ca4a7c",
+                "biographicalInformation": {
+                    "dob": "2018-01-10T18:30:00.000Z",
+                    "dateOfDeath": "2018-01-10T18:30:00.000Z",
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD105",
+                    "regionOfBirth": "in",
+                    "countryOfBirth": "Code"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-03T18:30:00.000Z",
+                        "issuingAuthority": "b",
+                        "issuePlace": "a",
+                        "issueDate": "2018-01-02T18:30:00.000Z",
+                        "documentNumber": "a3",
+                        "documentTitle": "a2",
+                        "documentType": "a1",
+                        "country": "Code",
+                        "_id": "5a53795ab3b23b4e56ca4a81"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "123456",
+                        "line2": "s",
+                        "line1": "a",
+                        "city": "HYD",
+                        "state": "AP",
+                        "country": "IN",
+                        "addressType": "1",
+                        "_id": "5a53795ab3b23b4e56ca4a80"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "b",
+                    "nationalIdCardType": "a",
+                    "country": "Code",
+                    "_id": "5a53795ab3b23b4e56ca4a7f"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a53795ab3b23b4e56ca4a7e",
+                    "us": {
+                        "ethnicGroup": "1",
+                        "veteran": "Code",
+                        "challengedVeteran": "1"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-08T13:52:05.517Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "1",
+                    "challengeStatus": "",
+                    "_id": "5a53795ab3b23b4e56ca4a7d",
+                    "maritalStatus": "1",
+                    "gender": "Code",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "Code",
+                    "formalName": "",
+                    "displayName": "test123",
+                    "suffix": "Code",
+                    "lastName": "test",
+                    "middleName": "",
+                    "firstName": "test"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a55c84684f73ce507d782e2",
+        "entityInformation": {
+            "owner": "106",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-10T07:52:43.827Z",
+            "_id": "5a55c846c2d9c30fe3c8cc06"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "reactjs"
+            }
+        },
+        "updatedAt": "2018-01-10T08:01:10.785Z",
+        "identify": {
+            "_id": "5a55c846c2d9c30fe3c8cc05",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-10T07:52:43.827Z",
+                    "company": "COMP1",
+                    "eventReason": "Code"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-10T08:01:10.785Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a55c846c2d9c30fe3c8cbef"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a55c846c2d9c30fe3c8cbee"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a55c846c2d9c30fe3c8cbf0"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-12T18:30:00.000Z",
+                        "startDate": "2018-01-11T18:30:00.000Z",
+                        "currency": "Antigua and Barbuda",
+                        "amount": "123",
+                        "payComponent": "Code",
+                        "_id": "5a55c846c2d9c30fe3c8cbf4"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-17T18:30:00.000Z",
+                        "currency": "Code",
+                        "amount": "gg",
+                        "payComponent": "Code",
+                        "_id": "5a55c846c2d9c30fe3c8cbf3"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "2",
+                    "payGroup": "Code",
+                    "isEligibleForBenefit": "01",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "123",
+                    "compaRatio": "123",
+                    "rangePenetration": "sdgf",
+                    "annualizedSalary": "fghj",
+                    "teo": "123",
+                    "_id": "5a55c846c2d9c30fe3c8cbf1"
+                },
+                "compensation": [
+                    {
+                        "frequency": "1",
+                        "currency": "Aruba",
+                        "amount": "c",
+                        "payComponent": "Code",
+                        "_id": "5a55c846c2d9c30fe3c8cbf2"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-17T18:30:00.000Z",
+                    "originalStartDate": "2018-01-10T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a55c846c2d9c30fe3c8cbfb"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "hc12",
+                        "relationshipType": "code1",
+                        "_id": "5a55c846c2d9c30fe3c8cbfa"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a55c846c2d9c30fe3c8cbf9",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "01",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code1",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "48889",
+                        "continuedSicknessPayMeasure": "7895",
+                        "noticePeriod": "der",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "01",
+                        "eeoCategory2": "01",
+                        "eeoCategory3": "01",
+                        "eeoCategory4": "02",
+                        "eeoCategory5": "02",
+                        "eeoCategory6": "01"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "AX",
+                    "workSchedule": "code1",
+                    "timeProfile": "01",
+                    "_id": "5a55c846c2d9c30fe3c8cbf8"
+                },
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "code",
+                        "jobCode": "code1",
+                        "_id": "5a55c846c2d9c30fe3c8cbf5"
+                    },
+                    "_id": "5a605a2543627d61c883f668"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "ggg",
+                        "regularOrTemporary": "1",
+                        "payGrade": "1",
+                        "localJobTitle": "",
+                        "jobTitle": "abc",
+                        "jobClassification": "1",
+                        "supervisor": "2",
+                        "employmentStatus": "1",
+                        "_id": "5a55c846c2d9c30fe3c8cbf7"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "2",
+                        "timeZone": "01",
+                        "location": "DZ",
+                        "department": "01",
+                        "division": "01",
+                        "businessUnit": "BU2",
+                        "company": "COMP2",
+                        "_id": "5a55c846c2d9c30fe3c8cbf6"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a55c846c2d9c30fe3c8cc02",
+                "phoneInformation": [
+                    {
+                        "_id": "5a55c846c2d9c30fe3c8cc04",
+                        "phoneType": "1",
+                        "number": "3213",
+                        "extension": "5",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a55c846c2d9c30fe3c8cc03",
+                        "emailType": "1",
+                        "emailAddress": "d",
+                        "isPrimary": "1"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a55c846c2d9c30fe3c8cbfc",
+                "biographicalInformation": {
+                    "dob": "2018-01-10T18:30:00.000Z",
+                    "dateOfDeath": "2018-01-10T18:30:00.000Z",
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD106",
+                    "regionOfBirth": "gg",
+                    "countryOfBirth": "AR"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-19T18:30:00.000Z",
+                        "issuingAuthority": "d",
+                        "issuePlace": "d",
+                        "issueDate": "2018-01-11T18:30:00.000Z",
+                        "documentNumber": "dd",
+                        "documentTitle": "sd",
+                        "documentType": "s",
+                        "country": "Code",
+                        "_id": "5a55c846c2d9c30fe3c8cc01"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "2017",
+                        "line2": "",
+                        "line1": "123",
+                        "city": "HYD",
+                        "state": "TS",
+                        "country": "AX",
+                        "addressType": "1",
+                        "_id": "5a55c846c2d9c30fe3c8cc00"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "a",
+                    "nationalIdCardType": "a",
+                    "country": "AF",
+                    "_id": "5a55c846c2d9c30fe3c8cbff"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a55c846c2d9c30fe3c8cbfe",
+                    "us": {
+                        "ethnicGroup": "1",
+                        "veteran": "Code",
+                        "challengedVeteran": "2"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-10T07:52:43.827Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "1",
+                    "challengeStatus": "",
+                    "_id": "5a55c846c2d9c30fe3c8cbfd",
+                    "maritalStatus": "1",
+                    "gender": "01",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "Code",
+                    "formalName": "",
+                    "displayName": "shree",
+                    "suffix": "Code",
+                    "lastName": "214",
+                    "middleName": "ram",
+                    "firstName": "shree"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a55cf5e84f73ce507d784cb",
+        "entityInformation": {
+            "owner": "107",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-10T08:10:13.635Z",
+            "_id": "5a55cf5ec2d9c30fe3c8da65"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "nodejs"
+            }
+        },
+        "updatedAt": "2018-01-10T08:31:26.917Z",
+        "identify": {
+            "_id": "5a55cf5ec2d9c30fe3c8da64",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-10T08:10:13.635Z",
+                    "company": "COMP1",
+                    "eventReason": "Code"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-10T08:31:26.917Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a55cf5ec2d9c30fe3c8da4e"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a55cf5ec2d9c30fe3c8da4d"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a55cf5ec2d9c30fe3c8da4f"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-11T18:30:00.000Z",
+                        "startDate": "2018-01-11T18:30:00.000Z",
+                        "currency": "01",
+                        "amount": "3",
+                        "payComponent": "01",
+                        "_id": "5a55cf5ec2d9c30fe3c8da53"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-11T18:30:00.000Z",
+                        "currency": "Code",
+                        "amount": "123",
+                        "payComponent": "01",
+                        "_id": "5a55cf5ec2d9c30fe3c8da52"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "code",
+                    "payGroup": "01",
+                    "isEligibleForBenefit": "Code",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "2",
+                    "compaRatio": "4",
+                    "rangePenetration": "6",
+                    "annualizedSalary": "7",
+                    "teo": "8",
+                    "_id": "5a55cf5ec2d9c30fe3c8da50"
+                },
+                "compensation": [
+                    {
+                        "frequency": "1",
+                        "currency": "01",
+                        "amount": "5",
+                        "payComponent": "Code",
+                        "_id": "5a55cf5ec2d9c30fe3c8da51"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-11T18:30:00.000Z",
+                    "originalStartDate": "2018-01-18T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a55cf5ec2d9c30fe3c8da5a"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "1234",
+                        "relationshipType": "code1",
+                        "_id": "5a55cf5ec2d9c30fe3c8da59"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a55cf5ec2d9c30fe3c8da58",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "02",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code1",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "123",
+                        "continuedSicknessPayMeasure": "1234",
+                        "noticePeriod": "456",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "01",
+                        "eeoCategory2": "01",
+                        "eeoCategory3": "02",
+                        "eeoCategory4": "01",
+                        "eeoCategory5": "02",
+                        "eeoCategory6": "03"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "AX",
+                    "workSchedule": "code1",
+                    "timeProfile": "01",
+                    "_id": "5a55cf5ec2d9c30fe3c8da57"
+                },
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "code",
+                        "jobCode": "code1",
+                        "_id": "5a55cf5ec2d9c30fe3c8da54"
+                    },
+                    "_id": "5a605a2543627d61c883f674"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "1234",
+                        "regularOrTemporary": "1",
+                        "payGrade": "1",
+                        "localJobTitle": "123",
+                        "jobTitle": "ash",
+                        "jobClassification": "1",
+                        "supervisor": "1",
+                        "employmentStatus": "1",
+                        "_id": "5a55cf5ec2d9c30fe3c8da56"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "1",
+                        "timeZone": "01",
+                        "location": "AL",
+                        "department": "01",
+                        "division": "01",
+                        "businessUnit": "BU1",
+                        "company": "COMP1",
+                        "_id": "5a55cf5ec2d9c30fe3c8da55"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a55cf5ec2d9c30fe3c8da61",
+                "phoneInformation": [
+                    {
+                        "_id": "5a55cf5ec2d9c30fe3c8da63",
+                        "phoneType": "1",
+                        "number": "sd",
+                        "extension": "a",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a55cf5ec2d9c30fe3c8da62",
+                        "emailType": "1",
+                        "emailAddress": "s",
+                        "isPrimary": "2"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a55cf5ec2d9c30fe3c8da5b",
+                "biographicalInformation": {
+                    "dob": "2018-01-11T18:30:00.000Z",
+                    "dateOfDeath": null,
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD107",
+                    "regionOfBirth": "d",
+                    "countryOfBirth": "AX"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-03T18:30:00.000Z",
+                        "issuingAuthority": "d",
+                        "issuePlace": "s",
+                        "issueDate": "2018-01-11T18:30:00.000Z",
+                        "documentNumber": "s",
+                        "documentTitle": "s",
+                        "documentType": "s",
+                        "country": "Code",
+                        "_id": "5a55cf5ec2d9c30fe3c8da60"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "234",
+                        "line2": "",
+                        "line1": "a",
+                        "city": "VJW",
+                        "state": "AP",
+                        "country": "Code",
+                        "addressType": "1",
+                        "_id": "5a55cf5ec2d9c30fe3c8da5f"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "a",
+                    "nationalIdCardType": "a",
+                    "country": "AL",
+                    "_id": "5a55cf5ec2d9c30fe3c8da5e"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a55cf5ec2d9c30fe3c8da5d",
+                    "us": {
+                        "ethnicGroup": "2",
+                        "veteran": "Code",
+                        "challengedVeteran": "2"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-10T08:10:13.635Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "1",
+                    "challengeStatus": "",
+                    "_id": "5a55cf5ec2d9c30fe3c8da5c",
+                    "maritalStatus": "1",
+                    "gender": "01",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "01",
+                    "formalName": "",
+                    "displayName": "",
+                    "suffix": "01",
+                    "lastName": "d",
+                    "middleName": "",
+                    "firstName": "d"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a5742e4c9adce6d3aec902e",
+        "entityInformation": {
+            "owner": "108",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-11T10:51:11.269Z",
+            "_id": "5a5742e4a582e90d5c9a9ca0"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "php"
+            }
+        },
+        "updatedAt": "2018-01-11T10:56:36.226Z",
+        "identify": {
+            "_id": "5a5742e4a582e90d5c9a9c9f",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-12T06:30:00.000Z",
+                    "company": "COMP2",
+                    "eventReason": "01"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-11T10:56:36.226Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a5742e4a582e90d5c9a9c89"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a5742e4a582e90d5c9a9c88"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a5742e4a582e90d5c9a9c8a"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-11T18:30:00.000Z",
+                        "startDate": "2018-01-11T18:30:00.000Z",
+                        "currency": "Armenia",
+                        "amount": "gfg",
+                        "payComponent": "01",
+                        "_id": "5a5742e4a582e90d5c9a9c8e"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-10T18:30:00.000Z",
+                        "currency": "01",
+                        "amount": "gfg",
+                        "payComponent": "01",
+                        "_id": "5a5742e4a582e90d5c9a9c8d"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "code",
+                    "payGroup": "01",
+                    "isEligibleForBenefit": "01",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "h",
+                    "compaRatio": "df",
+                    "rangePenetration": "fgg",
+                    "annualizedSalary": "ggfg",
+                    "teo": "gfgf",
+                    "_id": "5a5742e4a582e90d5c9a9c8b"
+                },
+                "compensation": [
+                    {
+                        "frequency": "1",
+                        "currency": "Egypt",
+                        "amount": "fdg",
+                        "payComponent": "01",
+                        "_id": "5a5742e4a582e90d5c9a9c8c"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-11T18:30:00.000Z",
+                    "originalStartDate": "2018-01-11T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a5742e4a582e90d5c9a9c95"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "fty",
+                        "relationshipType": "code1",
+                        "_id": "5a5742e4a582e90d5c9a9c94"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a5742e4a582e90d5c9a9c93",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "01",
+                        "isShiftEmployee": "2",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code2",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "hyt",
+                        "continuedSicknessPayMeasure": "567",
+                        "noticePeriod": "bh5",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "01",
+                        "eeoCategory2": "01",
+                        "eeoCategory3": "01",
+                        "eeoCategory4": "01",
+                        "eeoCategory5": "01",
+                        "eeoCategory6": "01"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "AF",
+                    "workSchedule": "code1",
+                    "timeProfile": "02",
+                    "_id": "5a5742e4a582e90d5c9a9c92"
+                },
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "200001",
+                        "jobCode": "code1",
+                        "_id": "5a5742e4a582e90d5c9a9c8f"
+                    },
+                    "_id": "5a605a2543627d61c883f680"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "hg",
+                        "regularOrTemporary": "2",
+                        "payGrade": "1",
+                        "localJobTitle": "",
+                        "jobTitle": "h6",
+                        "jobClassification": "2",
+                        "supervisor": "1",
+                        "employmentStatus": "1",
+                        "_id": "5a5742e4a582e90d5c9a9c91"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "1",
+                        "timeZone": "01",
+                        "location": "AX",
+                        "department": "Code",
+                        "division": "02",
+                        "businessUnit": "BU2",
+                        "company": "COMP1",
+                        "_id": "5a5742e4a582e90d5c9a9c90"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a5742e4a582e90d5c9a9c9c",
+                "phoneInformation": [
+                    {
+                        "_id": "5a5742e4a582e90d5c9a9c9e",
+                        "phoneType": "1",
+                        "number": "f",
+                        "extension": "f",
+                        "isPrimary": "2"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a5742e4a582e90d5c9a9c9d",
+                        "emailType": "1",
+                        "emailAddress": "ff",
+                        "isPrimary": "2"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a5742e4a582e90d5c9a9c96",
+                "biographicalInformation": {
+                    "dob": "2018-01-11T18:30:00.000Z",
+                    "dateOfDeath": null,
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD108",
+                    "regionOfBirth": "sd",
+                    "countryOfBirth": "DZ"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-04T18:30:00.000Z",
+                        "issuingAuthority": "ff",
+                        "issuePlace": "fdsf",
+                        "issueDate": "2018-01-11T18:30:00.000Z",
+                        "documentNumber": "rfdsf43",
+                        "documentTitle": "xdf334",
+                        "documentType": "3cxz",
+                        "country": "AL",
+                        "_id": "5a5742e4a582e90d5c9a9c9b"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "ff",
+                        "line2": "ggg",
+                        "line1": "fgff",
+                        "city": "VJW",
+                        "state": "TS",
+                        "country": "AF",
+                        "addressType": "1",
+                        "_id": "5a5742e4a582e90d5c9a9c9a"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "gg",
+                    "nationalIdCardType": "ff",
+                    "country": "AF",
+                    "_id": "5a5742e4a582e90d5c9a9c99"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a5742e4a582e90d5c9a9c98",
+                    "us": {
+                        "ethnicGroup": "2",
+                        "veteran": "Code",
+                        "challengedVeteran": "1"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-11T10:51:11.269Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "2",
+                    "challengeStatus": "",
+                    "_id": "5a5742e4a582e90d5c9a9c97",
+                    "maritalStatus": "1",
+                    "gender": "01",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "01",
+                    "formalName": "",
+                    "displayName": "",
+                    "suffix": "02",
+                    "lastName": "gg",
+                    "middleName": "",
+                    "firstName": "ff"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a574559c9adce6d3aec9121",
+        "entityInformation": {
+            "owner": "109",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-11T10:59:47.528Z",
+            "_id": "5a574559a582e90d5c9aaa54"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "mysql"
+            }
+        },
+        "updatedAt": "2018-01-11T11:07:05.567Z",
+        "identify": {
+            "_id": "5a574559a582e90d5c9aaa53",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-11T10:59:47.528Z",
+                    "company": "COMP3",
+                    "eventReason": "01"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-11T11:07:05.567Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a574559a582e90d5c9aaa3d"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a574559a582e90d5c9aaa3c"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a574559a582e90d5c9aaa3e"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-11T18:30:00.000Z",
+                        "startDate": "2018-01-11T18:30:00.000Z",
+                        "currency": "Aruba",
+                        "amount": "d",
+                        "payComponent": "02",
+                        "_id": "5a574559a582e90d5c9aaa42"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-10T18:30:00.000Z",
+                        "currency": "01",
+                        "amount": "d",
+                        "payComponent": "01",
+                        "_id": "5a574559a582e90d5c9aaa41"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "1",
+                    "payGroup": "01",
+                    "isEligibleForBenefit": "Code",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "s",
+                    "compaRatio": "s",
+                    "rangePenetration": "s",
+                    "annualizedSalary": "sd",
+                    "teo": "d",
+                    "_id": "5a574559a582e90d5c9aaa3f"
+                },
+                "compensation": [
+                    {
+                        "frequency": "2",
+                        "currency": "01",
+                        "amount": "d",
+                        "payComponent": "Code",
+                        "_id": "5a574559a582e90d5c9aaa40"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-11T18:30:00.000Z",
+                    "originalStartDate": "2018-01-11T18:30:00.000Z",
+                    "seniorityStartDate": null,
+                    "serviceDate": null,
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a574559a582e90d5c9aaa49"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "sss",
+                        "relationshipType": "code1",
+                        "_id": "5a574559a582e90d5c9aaa48"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a574559a582e90d5c9aaa47",
+                    "us": {
+                        "isFullTime": "1",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "01",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code1",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "ss",
+                        "continuedSicknessPayMeasure": "ss",
+                        "noticePeriod": "ss",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "01",
+                        "eeoCategory2": "Code",
+                        "eeoCategory3": "Code",
+                        "eeoCategory4": "02",
+                        "eeoCategory5": "01",
+                        "eeoCategory6": "01"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "Code",
+                    "workSchedule": "code2",
+                    "timeProfile": "Code",
+                    "_id": "5a574559a582e90d5c9aaa46"
+                },
+                "keyJobAttribute": {
+                    "0": {
+                        "position": "200001",
+                        "jobCode": "code2",
+                        "_id": "5a574559a582e90d5c9aaa43"
+                    },
+                    "_id": "5a605a2543627d61c883f68c"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "s",
+                        "regularOrTemporary": "1",
+                        "payGrade": "1",
+                        "localJobTitle": "",
+                        "jobTitle": "ss",
+                        "jobClassification": "1",
+                        "supervisor": "2",
+                        "employmentStatus": "1",
+                        "_id": "5a574559a582e90d5c9aaa45"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "1",
+                        "timeZone": "Code",
+                        "location": "AX",
+                        "department": "01",
+                        "division": "Code",
+                        "businessUnit": "BU1",
+                        "company": "COMP2",
+                        "_id": "5a574559a582e90d5c9aaa44"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a574559a582e90d5c9aaa50",
+                "phoneInformation": [
+                    {
+                        "_id": "5a574559a582e90d5c9aaa52",
+                        "phoneType": "1",
+                        "number": "s",
+                        "extension": "",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a574559a582e90d5c9aaa51",
+                        "emailType": "1",
+                        "emailAddress": "s",
+                        "isPrimary": "1"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a574559a582e90d5c9aaa4a",
+                "biographicalInformation": {
+                    "dob": "2018-01-10T18:30:00.000Z",
+                    "dateOfDeath": null,
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD109",
+                    "regionOfBirth": "s",
+                    "countryOfBirth": "AX"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-11T18:30:00.000Z",
+                        "issuingAuthority": "ff",
+                        "issuePlace": "f",
+                        "issueDate": "2018-01-10T18:30:00.000Z",
+                        "documentNumber": "e",
+                        "documentTitle": "e",
+                        "documentType": "w",
+                        "country": "AF",
+                        "_id": "5a574559a582e90d5c9aaa4f"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "d",
+                        "line2": "",
+                        "line1": "d",
+                        "city": "HYD",
+                        "state": "AP",
+                        "country": "Code",
+                        "addressType": "1",
+                        "_id": "5a574559a582e90d5c9aaa4e"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "d",
+                    "nationalIdCardType": "s",
+                    "country": "AF",
+                    "_id": "5a574559a582e90d5c9aaa4d"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a574559a582e90d5c9aaa4c",
+                    "us": {
+                        "ethnicGroup": "2",
+                        "veteran": "Code",
+                        "challengedVeteran": "1"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-11T10:59:47.528Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "2",
+                    "challengeStatus": "",
+                    "_id": "5a574559a582e90d5c9aaa4b",
+                    "maritalStatus": "1",
+                    "gender": "01",
+                    "prefix": "01",
+                    "initials": "",
+                    "birthName": "ss",
+                    "title": "01",
+                    "formalName": "",
+                    "displayName": "Hawar123",
+                    "suffix": "Code",
+                    "lastName": "pawar",
+                    "middleName": "",
+                    "firstName": "raj"
+                }
+            }
+        }
+    },
+    {
+        "_id": "5a5f0ccd0a736b6c8c956bb6",
+        "entityInformation": {
+            "owner": "110",
+            "approver": "efgh",
+            "status": "active",
+            "customer": "McBitss",
+            "approval_date": "2018-01-17T08:37:45.925Z",
+            "_id": "5a5f0ccd30be3017204eb918"
+        },
+        "skillInformation": {
+            "empid": 101,
+            "skills": {
+                "id": 1,
+                "name": "mongoDB"
+            }
+        },
+        "updatedAt": "2018-01-17T08:43:57.763Z",
+        "identify": {
+            "_id": "5a5f0ccd30be3017204eb917",
+            "identify": {
+                "identify": {
+                    "hireDate": "2018-01-17T08:37:45.925Z",
+                    "company": "COMP1",
+                    "eventReason": "Code"
+                }
+            }
+        },
+        "__v": 0,
+        "createdAt": "2018-01-17T08:43:57.763Z",
+        "ltaBills": [],
+        "medicalBills": [],
+        "houseRent": [],
+        "timeOff": {
+            "timeOffOverview": {
+                "balanceAsOfSection": {
+                    "vacation": {
+                        "type": "Vacation",
+                        "days": 16
+                    },
+                    "sickLeave": {
+                        "type": "Sick Leave",
+                        "days": 10
+                    },
+                    "casualLeave": {
+                        "type": "Casual Leave",
+                        "days": 4
+                    },
+                    "other": {
+                        "otherTypes": [
+                            {
+                                "_id": "5a5f0ccd30be3017204eb901"
+                            }
+                        ],
+                        "type": "Other"
+                    },
+                    "_id": "5a5f0ccd30be3017204eb900"
+                },
+                "timeOffBalance": [],
+                "myRequests": []
+            }
+        },
+        "benefits": {
+            "claims": {
+                "processedClaims": [],
+                "inprocessClaims": []
+            },
+            "enrollments": [],
+            "currentBenefits": {
+                "psrPlans": [],
+                "allowance": []
+            }
+        },
+        "companyInformation": {
+            "companyInformation": {
+                "companyName": "",
+                "countryName": "",
+                "cityName": "",
+                "stateName": "",
+                "zipCode": "",
+                "addressLine1": "",
+                "addressLine2": "",
+                "numberOfEmployees": "",
+                "_id": "5a5f0ccd30be3017204eb902"
+            }
+        },
+        "compensationInformation": {
+            "recurringPayment": {
+                "recurringPayment": [
+                    {
+                        "endDate": "2018-01-11T18:30:00.000Z",
+                        "startDate": "2018-01-04T18:30:00.000Z",
+                        "currency": "Anguilla",
+                        "amount": "45",
+                        "payComponent": "Code",
+                        "_id": "5a5f0ccd30be3017204eb906"
+                    }
+                ]
+            },
+            "oneTimePayment": {
+                "oneTimePayment": [
+                    {
+                        "paymentDate": "2018-01-17T18:30:00.000Z",
+                        "currency": "01",
+                        "amount": "1323",
+                        "payComponent": "Code",
+                        "_id": "5a5f0ccd30be3017204eb905"
+                    }
+                ]
+            },
+            "compensationInformation": {
+                "compensationGroup": {
+                    "payType": "1",
+                    "payGroup": "Code",
+                    "isEligibleForBenefit": "Code",
+                    "isEligibleForCar": "1",
+                    "benefitRate": "w",
+                    "compaRatio": "e",
+                    "rangePenetration": "r",
+                    "annualizedSalary": "rr",
+                    "teo": "ff",
+                    "_id": "5a5f0ccd30be3017204eb903"
+                },
+                "compensation": [
+                    {
+                        "frequency": "1",
+                        "currency": "Code",
+                        "amount": "1234",
+                        "payComponent": "Code",
+                        "_id": "5a5f0ccd30be3017204eb904"
+                    }
+                ]
+            }
+        },
+        "jobInformation": {
+            "employmentDetails": {
+                "globalFields": {
+                    "hireDate": "2018-01-10T18:30:00.000Z",
+                    "originalStartDate": "2018-01-18T18:30:00.000Z",
+                    "seniorityStartDate": "2018-01-19T18:30:00.000Z",
+                    "serviceDate": "2018-01-05T18:30:00.000Z",
+                    "professionalServiceDate": null,
+                    "retireDate": null,
+                    "_id": "5a5f0ccd30be3017204eb90d"
+                }
+            },
+            "jobRelationships": {
+                "globalFields": [
+                    {
+                        "name": "aa",
+                        "relationshipType": "code1",
+                        "_id": "5a5f0ccd30be3017204eb90c"
+                    }
+                ]
+            },
+            "employmentDetail": {
+                "countrySpecificFields": {
+                    "_id": "5a5f0ccd30be3017204eb90b",
+                    "us": {
+                        "isFullTime": "2",
+                        "notes": "",
+                        "employeeClass": "code1",
+                        "flsaStatus": "01",
+                        "isShiftEmployee": "1",
+                        "shiftCode": "code1",
+                        "shiftRate": "",
+                        "shiftPercent": "",
+                        "isCrossBorderWorker": "code1",
+                        "eeoJobGroup": "code1",
+                        "contractType": "1",
+                        "continuedSicknessPayPeriod": "2444",
+                        "continuedSicknessPayMeasure": "666",
+                        "noticePeriod": "dfdsf",
+                        "initialEntry": "",
+                        "entryIntoGroup": "",
+                        "corporation": "",
+                        "eeoCategory1": "Code",
+                        "eeoCategory2": "Code",
+                        "eeoCategory3": "01",
+                        "eeoCategory4": "01",
+                        "eeoCategory5": "01",
+                        "eeoCategory6": "02"
+                    }
+                },
+                "timeInformation": {
+                    "holidayCalendar": "Code",
+                    "workSchedule": "code1",
+                    "timeProfile": "01",
+                    "_id": "5a5f0ccd30be3017204eb90a"
+                },
+                "keyJobAttribute": {
+                    "jobCode": "code3",
+                    "position": "200002",
+                    "_id": "5a5f0ccd30be3017204eb907"
+                },
+                "jobInformation": [
+                    {
+                        "fte": "",
+                        "standardWeeklyHours": "ffgfg",
+                        "regularOrTemporary": "2",
+                        "payGrade": "1",
+                        "localJobTitle": "123",
+                        "jobTitle": "1234",
+                        "jobClassification": "1",
+                        "supervisor": "2",
+                        "employmentStatus": "2",
+                        "_id": "5a5f0ccd30be3017204eb909"
+                    }
+                ],
+                "organizationalInformation": [
+                    {
+                        "costCenter": "1",
+                        "timeZone": "Code",
+                        "location": "AF",
+                        "department": "02",
+                        "division": "01",
+                        "businessUnit": "BU2",
+                        "company": "COMP1",
+                        "_id": "5a5f0ccd30be3017204eb908"
+                    }
+                ]
+            }
+        },
+        "personalInformation": {
+            "contactInformation": {
+                "_id": "5a5f0ccd30be3017204eb914",
+                "phoneInformation": [
+                    {
+                        "_id": "5a5f0ccd30be3017204eb916",
+                        "phoneType": "1",
+                        "number": "3213",
+                        "extension": "e",
+                        "isPrimary": "1"
+                    }
+                ],
+                "emailInformation": [
+                    {
+                        "_id": "5a5f0ccd30be3017204eb915",
+                        "emailType": "1",
+                        "emailAddress": "ee",
+                        "isPrimary": "1"
+                    }
+                ]
+            },
+            "biographicalInformation": {
+                "_id": "5a5f0ccd30be3017204eb90e",
+                "biographicalInformation": {
+                    "dob": "2018-01-18T18:30:00.000Z",
+                    "dateOfDeath": "2018-01-10T18:30:00.000Z",
+                    "employeeGlobalId": "",
+                    "employeeId": "HYD110",
+                    "regionOfBirth": "23",
+                    "countryOfBirth": "Code"
+                }
+            },
+            "workPermitInformation": {
+                "workPermitInformation": [
+                    {
+                        "attachments": "",
+                        "validated": "1",
+                        "expirationDate": "2018-01-11T18:30:00.000Z",
+                        "issuingAuthority": "5",
+                        "issuePlace": "5",
+                        "issueDate": "2018-01-18T18:30:00.000Z",
+                        "documentNumber": "55",
+                        "documentTitle": "44",
+                        "documentType": "234",
+                        "country": "AF",
+                        "_id": "5a5f0ccd30be3017204eb913"
+                    }
+                ]
+            },
+            "addressInformation": {
+                "addressInformation": [
+                    {
+                        "zip": "33",
+                        "line2": "",
+                        "line1": "12",
+                        "city": "HYD",
+                        "state": "AP",
+                        "country": "AF",
+                        "addressType": "1",
+                        "_id": "5a5f0ccd30be3017204eb912"
+                    }
+                ]
+            },
+            "nationalIdInformation": [
+                {
+                    "isPrimary": "1",
+                    "nationalId": "4545",
+                    "nationalIdCardType": "1232",
+                    "country": "AF",
+                    "_id": "5a5f0ccd30be3017204eb911"
+                }
+            ],
+            "personalInformation": {
+                "countrySpecificFields": {
+                    "_id": "5a5f0ccd30be3017204eb910",
+                    "us": {
+                        "ethnicGroup": "1",
+                        "veteran": "Code",
+                        "challengedVeteran": "1"
+                    }
+                },
+                "personalInformation": {
+                    "maritalStatusSinceDate": "2018-01-17T08:37:45.925Z",
+                    "secondNationality": "",
+                    "thirdNationality": "",
+                    "preferredLanguage": "1",
+                    "challengeStatus": "",
+                    "_id": "5a5f0ccd30be3017204eb90f",
+                    "maritalStatus": "1",
+                    "gender": "Code",
+                    "prefix": "02",
+                    "initials": "",
+                    "birthName": "",
+                    "title": "01",
+                    "formalName": "",
+                    "displayName": "KLM",
+                    "suffix": "02",
+                    "lastName": "DEF",
+                    "middleName": "",
+                    "firstName": "ABC"
+                }
+            }
+        }
+    }
+]

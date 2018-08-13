@@ -1,0 +1,507 @@
+.time-off-nav {
+	padding: 20px 25px;
+	font-size: 12px
+}
+.time-off-balance, .time-off-nav {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex
+}
+.time-off-balance {
+	margin-right: 20px;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	color: #175d9d
+}
+.time-off-balance-day {
+	display: block;
+	clear: both
+}
+.time-off-types {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: justify;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+.time-off-type {
+	padding: 10px 30px;
+	margin: 0 10px;
+	background-color: #f4f7fa;
+	color: #175d9d;
+	text-align: center;
+	cursor: pointer
+}
+.time-off-type:hover {
+	-webkit-box-shadow: 0 0 10px rgba(23,93,157,.2);
+	box-shadow: 0 0 10px rgba(23,93,157,.2)
+}
+.time-off-type .box-take-action {
+	font-size: 12px;
+	color: #175d9d;
+	text-transform: none
+}
+.type-name, .type-other, .type-days strong {
+	font-weight: 600
+}
+.type-vacation {
+	border-bottom: 3px solid #008a3b
+}
+.type-sick {
+	border-bottom: 3px solid #0079bf
+}
+.type-casual {
+	border-bottom: 3px solid #175d9d;
+}
+.type-other {
+	border-bottom: 3px solid #f26e1d
+}
+.type-other .box-filter-arrow {
+	background-size: 8px 8px;
+	width: 8px;
+	height: 8px
+}
+.type-other .box-take-action .box-filter-arrow {
+	-webkit-transform: rotate(0);
+	transform: rotate(0)
+}
+.type-other .box-take-action.active .box-filter-arrow {
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg)
+}
+.type-other .take-action {
+	width: 180px;
+	top: 30px;
+	right: -30px;
+	font-size: 12px;
+	text-align: left
+}
+// .type-days {
+// 	border-bottom: 3px solid #6534ff;
+// }
+// .type-days .box-filter-arrow {
+// 	background-size: 8px 8px;
+// 	width: 8px;
+// 	height: 8px
+// }
+// .type-days .box-take-action .box-filter-arrow {
+// 	-webkit-transform: rotate(0);
+// 	transform: rotate(0)
+// }
+// .type-days .box-take-action.active .box-filter-arrow {
+// 	-webkit-transform: rotate(180deg);
+// 	transform: rotate(180deg)
+// }
+// .type-days .take-action {
+// 	width: 180px;
+// 	top: 30px;
+// 	right: -30px;
+// 	font-size: 12px;
+// 	text-align: left
+// }
+.team-absence {
+	padding: 25px
+}
+.team-absence-link {
+	color: #175d9d;
+	font-size: 13px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	text-decoration: none
+}
+.team-absence-link:hover {
+	text-decoration: underline
+}
+.team-absence-link svg {
+	margin-right: 5px;
+	width: 20px;
+	height: 20px
+}
+.time-requests {
+	padding: 25px;
+	font-size: 14px;
+	color: #175d9d
+}
+.single-request {
+	padding: 15px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	border-bottom: 1px solid #bfd2e5
+}
+.single-request-status {
+	margin-left: auto;
+	text-align: right
+}
+.single-request strong {
+	font-weight: 600
+}
+.single-request-meta {
+	padding-top: 5px;
+	margin-left: -10px;
+	opacity: .8
+}
+.single-request-meta a {
+	padding: 0 10px;
+	color: #175d9d;
+	text-decoration: none;
+	font-size: 12px;
+	border-right: 1px solid #bfd2e5
+}
+.single-request-meta a:hover {
+	text-decoration: underline
+}
+.single-request-meta a:last-of-type {
+	border-right: none
+}
+.request-status {
+	font-weight: 600
+}
+.request-approver {
+	margin-top: 3px;
+	font-size: 13px
+}
+.time-off-entry {
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 25px;
+	font-size: 13px;
+	display: none
+}
+.time-off-entry.active {
+	display: block
+}
+.time-off-entry-row {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-bottom: 15px
+}
+.time-off-entry .form-field {
+	margin-right: 20px
+}
+.time-off-entry .form-field label {
+	display: block;
+	margin-bottom: 3px;
+	color: #175d9d;
+	font-size: 12px;
+	font-weight: 600
+}
+.entry-title {
+	font-size: 15px;
+	color: #175d9d;
+	font-weight: 600;
+	margin-bottom: 15px;
+	display: inline-block
+}
+.entry-submit {
+	border: none;
+	background-color: #175d9d;
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 13px;
+	cursor: pointer;
+	font-family: inherit;
+	font-weight: 600;
+	padding: 5px 25px
+}
+.time-off-calendar {
+	max-width: 1600px;
+	padding: 25px 0;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+.time-off-calendar>.ui-datepicker-inline {
+	width: 90%!important
+}
+.time-off-calendar .ui-datepicker-group {
+	margin-left: 50px;
+	margin-right: 50px
+}
+.time-off-calendar .ui-datepicker-multi-3 .ui-datepicker-group {
+	width: calc(33.3% - 100px)
+}
+.time-off-calendar .ui-datepicker {
+	padding: .2em .2em 0;
+	width: 300px
+}
+.time-off-calendar .ui-datepicker-title {
+	font-weight: 600;
+	color: #175d9d
+}
+.time-off-calendar .ui-datepicker-calendar th {
+	font-weight: 500;
+	color: #175d9d
+}
+.time-off-calendar .ui-datepicker-calendar td {
+	text-align: center
+}
+.time-off-calendar .ui-datepicker-calendar td a {
+	padding: 14px 8px;
+	text-align: center;
+	background-color: #f4f7fa;
+	color: #175d9d
+}
+.time-off-calendar .ui-datepicker .ui-datepicker-next, .time-off-calendar .ui-datepicker .ui-datepicker-prev {
+	width: 20px;
+	height: 20px;
+	left: auto;
+	top: auto;
+	cursor: pointer
+}
+.time-off-calendar .ui-datepicker-calendar .ui-datepicker-week-end {
+	opacity: .7
+}
+.time-off-calendar .ui-datepicker-today .ui-state-highlight {
+	background-color: #175d9d;
+	color: #fff
+}
+.time-off-calendar .ui-state-highlight {
+	color: #175d9d
+}
+.time-off-calendar .ui-datepicker .ui-datepicker-today a:focus {
+	color: #fff
+}
+.time-off-calendar .ui-datepicker a:focus {
+	color: #175d9d
+}
+.time-off-calendar .ui-datepicker .ui-datepicker-prev {
+	background-image: url(/assets/images/calendar/prev.png);
+	background-size: 20px 20px;
+	top: 8px;
+	left: 23px
+}
+.time-off-calendar .ui-datepicker .ui-datepicker-next {
+	background-image: url(/assets/images/calendar/next.png);
+	background-size: 20px 20px;
+	top: 8px;
+	right: 23px
+}
+.time-off-calendar .ui-datepicker .ui-datepicker-prev-hover {
+	width: 20px;
+	height: 20px;
+	left: 23px;
+	top: 8px
+}
+.input-datepicker {
+	width: auto;
+	background-color: #f4f7fa;
+	-webkit-box-shadow: 0 0 10px rgba(23,93,157,.5);
+	box-shadow: 0 0 10px rgba(23,93,157,.5);
+	color: #175d9d
+}
+.input-datepicker td a {
+	padding: 10px;
+	text-align: center;
+	color: #175d9d
+}
+.input-datepicker td .ui-state-hover {
+	background-color: #dce8f3;
+	color: #175d9d
+}
+.input-datepicker td a:focus {
+	color: #175d9d
+}
+.input-datepicker .ui-datepicker-today .ui-state-highlight {
+	background-color: #175d9d;
+	color: #fff
+}
+.input-datepicker .ui-datepicker-next, .input-datepicker .ui-datepicker-prev {
+	width: 20px;
+	height: 20px;
+	left: auto;
+	top: auto;
+	cursor: pointer
+}
+.input-datepicker .ui-datepicker-prev {
+	background-image: url(/assets/images/calendar/prev.png);
+	background-size: 20px 20px;
+	top: 8px;
+	left: 13px
+}
+.input-datepicker .ui-datepicker-next {
+	background-image: url(/assets/images/calendar/next.png);
+	background-size: 20px 20px;
+	top: 8px;
+	right: 13px
+}
+.input-datepicker .ui-datepicker-prev-hover {
+	width: 20px;
+	height: 20px;
+	left: 13px;
+	top: 8px
+}
+.input-datepicker .ui-datepicker-next-hover {
+	right: 13px
+}
+.entry-input, .entry-textarea {
+	background-color: #f4f7fa;
+	border: 1px solid #b9cee2;
+	height: 25px;
+	font-size: 12px;
+	color: #175d9d;
+	padding: 0 5px;
+}
+.entry-textarea {
+	padding: 5px;
+	width: 100%;
+	height: 100px;
+	font-family: inherit
+}
+.time-off-entry .custom-select {
+	background-color: #f4f7fa;
+	height: 30px
+}
+.time-requests {
+	padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.my-requests {
+	padding-left: 25px;
+	font-size: 13px;
+}
+.mgn-bottom {
+	margin-bottom: 10px;
+}
+.actionButtons {
+	padding: 1px 5px;
+    // margin-right: 5px;
+    font-size: 18px;
+}
+.disable {
+	display: none;
+}
+.enable {
+   display: block;
+}
+.ReactTable .rt-thead.-filters {
+	background: none;
+	padding: 2px;
+}
+.ReactTable .rt-thead.-filters input[type="text"]{
+	margin-bottom: 0px !important;
+	width: 96% !important;
+	padding: 3px 7px !important;
+	border-radius: 8px !important;
+}
+.ReactTable .rt-thead.-filters .rt-th {
+	background: none !important;
+}
+.ReactTable .rt-td .entry-textarea {
+	margin-top: 5px;
+	height: 50px;
+}
+.approveReject Button {
+	background: none;
+	padding: 0px;
+	cursor: pointer;
+}
+.actionButtons.fa-check {
+	color: green;
+}
+.actionButtons.fa-times {
+	color: red;
+}
+.commentsIco {
+	font-size: 18px;
+	padding-left: 10px;
+	cursor: pointer;
+}
+.modal-width {
+	width: 62.5vw;
+}
+.chatBubbleWrap .userName {
+	font-size:10px;
+	margin-bottom:2px;
+}
+.chatBubbleWrap .outChatBubble {
+	position: relative;
+	background: #bbcbda;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	color: #175d9d;
+	float: right;
+	font-size: 12px;
+}
+.chatBubbleWrap .outChatBubble:after {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(13, 100, 213, 0);
+	border-left-color: #bbcbda;
+	border-width: 5px;
+    margin-top: -7px;
+}
+.chatBubbleWrap .inChatBubble {
+	position: relative;
+	background: #E6EEF6;
+	padding: 5px 10px;
+	border-radius: 5px;
+	margin-bottom: 0;
+	color: #175d9d;
+	font-size: 12px;
+}
+.chatBubbleWrap .inChatBubble:after {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(13, 100, 213, 0);
+	border-right-color: #E6EEF6;
+	border-width: 5px;
+    margin-top: -7px;
+}
+.comment-wrap {
+	position:relative;
+	width: 42px;
+	display: inline-block;
+}
+.comment-wrap .commentCount {
+	position: absolute;
+    top: -5px;
+    right: 5px;
+    background: red;
+    color: #fff;
+    width: 15px;
+    height: 15px;
+    line-height: 15px;
+    border-radius: 50px;
+    font-size: 10px;
+    text-align: center;
+}
+.Comment-Sec {
+	white-space: pre-line;
+}
+.txt-align-right {
+	text-align: right;
+}
+.no-border-top {
+	border-top: 0px solid white !important;
+}
+.my-balance {
+	padding-left: 0px;
+}

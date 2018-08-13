@@ -1,0 +1,152 @@
+.ReactTable .rt-thead.-headerGroups {
+    background: none !important;
+}
+.ReactTable .rt-th {
+    padding: 0px !important;
+    background: #175d9d !important;
+    color: #fff;
+    border-color:#a2bed8 !important;
+    font-weight: 700 !important;
+} 
+.ReactTable .rt-td {
+    padding: 5px !important;
+}
+.ReactTable .rt-thead.-headerGroups .rt-th {
+    font-weight: 700 !important;
+    font-size: 14px !important;
+}
+.ReactTable {
+    font-size: 12px !important;
+}
+.ReactTable .rt-thead.-headerGroups .rt-th:first-child, .ReactTable .rt-thead.-headerGroups .rt-th:nth-child(2) { 
+    background: none !important;
+    background-color: transparent !important;
+    border: none !important;
+}
+.ReactTable .rt-tr.-odd {
+    background: #F5F7FA !important;
+}
+.ReactTable .rt-tr.-even {
+    background: #E6EEF6 !important;
+}
+.ReactTable .rt-tr  {
+    color: #175d9d;
+}
+.ReactTable .rt-tbody .rt-td,
+.ReactTable .rt-tfoot .rt-td
+ {
+    border-color: #a2bed8 !important;
+}
+.ReactTable .rt-expander:after {
+    border-top: 7px solid #175d9d;
+}
+.salaryGrid {
+    border-top:none !important;
+    border-left: none !important;
+}
+.ReactTable .rt-tbody .rt-expandable,
+.ReactTable .rt-tfoot .rt-td:first-child {
+    border-left: 1px solid #a2bed8;
+}
+.ReactTable .rt-tbody .rt-td svg {
+    width:15px;
+}
+.compPlanButton {
+    background: #175d9d;
+    color: #fff;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.salaryGrid .rt-tbody {
+    overflow-x: hidden;
+}
+.alert-red {
+    color: red !important;
+}
+/**  custom scroll bar style */
+// .rt-tbody::-webkit-scrollbar {
+// 	width: 11px;
+// 	background-color: #a1bdd7;
+//   border-radius: 10px;
+// }
+// .rt-tbody::-webkit-scrollbar-thumb {
+// 	border-radius: 10px;
+// 	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+// 	background-color: #175d9d;
+// }
+
+// .rt-tbody::-webkit-scrollbar-track {
+// 	// -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+// 	border-radius: 10px;
+// 	background-color: #a1bdd7;
+// }
+
+.rt-tbody::-webkit-scrollbar, 
+.rt-table::-webkit-scrollbar {
+	width: 10px;
+	height: 10px;
+}
+.rt-tbody::-webkit-scrollbar-track, 
+.rt-table::-webkit-scrollbar-track {
+	background-color: #175d9d;
+	-webkit-border-radius: 5px;
+}
+.rt-tbody::-webkit-scrollbar-thumb:vertical,
+.rt-table::-webkit-scrollbar-thumb:vertical {
+	background-color: #9BBFDD;
+    -webkit-border-radius: 6px;
+}
+// .rt-tbody::-webkit-scrollbar-thumb:vertical:hover,
+// .rt-tbody::-webkit-scrollbar-thumb:horizontal:hover,
+// .rt-table::-webkit-scrollbar-thumb:vertical:hover,
+// .rt-table::-webkit-scrollbar-thumb:horizontal:hover
+//  {
+// 	background: #9BBFDD;
+// }
+.rt-tbody::-webkit-scrollbar-thumb:horizontal,
+.rt-table::-webkit-scrollbar-thumb:horizontal
+ {
+	background-color: #9BBFDD;
+    -webkit-border-radius: 6px;
+}
+
+// .header-bg {
+//     position: relative;
+//     text-align: left;
+//     padding-left: 20px;
+//     height: 35px;
+//     vertical-align: middle;
+// }
+.ts-main:before {
+	content: "";
+	display: block;
+	width: 15px;
+	height: 34px;
+	position: absolute;
+	left: 0;
+	top: 0
+}
+.ts-main--salary:before {
+	background-color: #68a0cb
+}
+.ts-main--merit:before {
+	background-color: #00a99d
+}
+.ts-main--lump:before {
+	background-color: #fbb03b
+}
+.ts-main--adjustment:before {
+	background-color: #eaaea4
+}
+.ts-main--promotion:before {
+	background-color: #fefe5e
+}
+.ts-main--final:before {
+	background-color: #eec971
+}
+*, :after, :before {
+    -webkit-box-sizing: inherit;
+    box-sizing: inherit;
+}

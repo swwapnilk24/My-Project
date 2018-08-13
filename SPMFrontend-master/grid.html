@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+th{
+    background-color: dimgray;
+    color: white; 
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+th a {
+ float: right;
+}
+.checkbox-grid li {
+    display: block;
+    float: left;
+    width: 50%;
+}
+</style>
+</head>
+<body>
+
+<table>
+  <tr rowspan='2'>
+      <th>Text0 <a onclick="showPopup()">&#10010;</a></th>
+    <th id="1">Text1</th>
+    <th id="2">Text2</th>
+    <th id="3">Text3</th>
+     <th id="4">Text4</th>
+     
+     <th>Text5</th>
+  </tr>
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+     <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+  <tr>
+    <td>Centro comercial Moctezuma</td>
+    <td>Francisco Chang</td>
+    <td>Mexico</td> <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+  <tr>
+    <td>Ernst Handel</td>
+    <td>Roland Mendel</td>
+    <td>Austria</td> <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+  <tr>
+    <td>Island Trading</td>
+    <td>Helen Bennett</td>
+    <td>UK</td> <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+  <tr>
+    <td>Laughing Bacchus Winecellars</td>
+    <td>Yoshi Tannamuri</td>
+    <td>Canada</td> <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+  <tr>
+    <td>Magazzini Alimentari Riuniti</td>
+    <td>Giovanni Rovelli</td>
+    <td>Italy</td> <td>Country</td><td>text4</td><td>Text5</td>
+  </tr>
+</table>
+
+<ul class="checkbox-grid">
+    <li><input type="checkbox" name="text1" value="1" checked=true /><label for="text1">Text 1</label></li>
+    <li><input type="checkbox" name="text2" value="2" checked=true /><label for="text2">Text 2</label></li>
+    <li><input type="checkbox" name="text3" value="3" checked=true /><label for="text3">Text 3</label></li>
+    <li><input type="checkbox" name="text4" value="4" checked=true /><label for="text4">Text 4</label></li>
+</ul>
+
+
+</div>
+</div>
+<script type="text/javascript">
+function showPopup(){
+ var ele = document.getElementsByClassName('checkbox-grid')[0],
+  state = ele.style.display == 'none' ?"block":"none";
+  ele.style.display = state;
+}
+
+ document.body.addEventListener('click',function(e){
+    if(e.target && e.srcElement.nodeName== 'INPUT' && e.srcElement.type== 'checkbox'){
+  
+  var tags = document.getElementsByTagName('input');
+for(var i = 1; i < tags.length+1; i++)
+{
+ show_hide_column(i,tags[i-1].checked);
+}
+    }
+ })
+
+ function show_hide_column(col_id, do_show) {
+  var stl;
+  if (do_show) stl = 'table-cell'
+  else stl = 'none';
+
+  var tbl = document.getElementsByTagName('table')[0];
+  var index = document.getElementById(col_id).cellIndex;
+  var rows = tbl.getElementsByTagName('tr');
+
+  for (var row = 0; row < rows.length; row++) {
+    var cels = rows[row].getElementsByTagName('td') ;
+    if(!cels.length) {
+    debugger;
+        cels = rows[row].getElementsByTagName('th');
+    }
+    cels[index].style.display = stl;
+  }
+}
+
+</script>
+</body>
+</html>

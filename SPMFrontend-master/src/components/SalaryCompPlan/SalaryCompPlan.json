@@ -1,0 +1,234 @@
+/* 1 */
+[{
+  "_id" : "5a184e5a87105f46341a3030",
+  "updatedAt" : "2017-11-24T16:52:42.811Z",
+  "createdAt" : "2017-11-24T16:52:42.811Z",
+  "name" : "David Harper",
+  "jobtitle" : "Sales Director",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184e5a87105f46341a3031"
+      }
+  ],
+  "sti" : [ 
+      {
+          "amount" : 85120000,
+          "abs" : 95000,
+          "caldays" : 7,
+          "fte" : 4,
+          "stitarget" : 4,
+          "_id" : "5a184e5a87105f46341a3033"
+      }, 
+      {
+          "amount" : 95000,
+          "abs" : 1,
+          "caldays" : 1,
+          "fte" : 1,
+          "stitarget" : 1,
+          "_id" : "5a184e5a87105f46341a3032"
+      }
+  ],
+  "__v" : 0
+},
+{
+  "_id" : "5a184f6f4983cf43c8da6892",
+  "updatedAt" : "2017-11-24T16:57:19.022Z",
+  "createdAt" : "2017-11-24T16:57:19.022Z",
+  "name" : "Robin",
+  "jobtitle" : "Consultant",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184f6f4983cf43c8da6893"
+      }
+  ],
+  "sti" : [],
+  "__v" : 0
+},
+
+/* 3 */
+{
+  "_id" : "5a184f994983cf43c8da6896",
+  "updatedAt" : "2017-11-24T16:58:01.408Z",
+  "createdAt" : "2017-11-24T16:58:01.408Z",
+  "name" : "Mahesh",
+  "jobtitle" : "Consultant",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184f994983cf43c8da6897"
+      }
+  ],
+  "sti" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 1,
+          "caldays" : 1,
+          "fte" : 1,
+          "stitarget" : 1,
+          "_id" : "5a184f994983cf43c8da6898"
+      }
+  ],
+  "__v" : 0
+},
+
+/* 4 */
+{
+  "_id" : "5a184fa04983cf43c8da689a",
+  "updatedAt" : "2017-11-24T16:58:08.977Z",
+  "createdAt" : "2017-11-24T16:58:08.977Z",
+  "name" : "Deepu",
+  "jobtitle" : "Consultant",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184fa04983cf43c8da689b"
+      }
+  ],
+  "sti" : [],
+  "__v" : 0
+},
+
+/* 5 */
+{
+  "_id" : "5a184fa64983cf43c8da689e",
+  "updatedAt" : "2017-11-24T16:58:14.780Z",
+  "createdAt" : "2017-11-24T16:58:14.780Z",
+  "name" : "Raj",
+  "jobtitle" : "Consultant",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184fa64983cf43c8da689f"
+      }
+  ],
+  "sti" : [],
+  "__v" : 0
+},
+
+/* 6 */
+{
+  "_id" : "5a184fb94983cf43c8da68a2",
+  "updatedAt" : "2017-11-24T16:58:33.579Z",
+  "createdAt" : "2017-11-24T16:58:33.579Z",
+  "name" : "Jackie",
+  "jobtitle" : "Consultant",
+  "reviewrating" : "BTA",
+  "prerating" : 100,
+  "currencycode" : "USD",
+  "currentsalary" : 95000,
+  "increasedate" : "2017-06-30T22:00:00.000Z",
+  "compratio" : 97,
+  "min" : 10,
+  "max" : 15,
+  "lumpsum" : 0,
+  "adjustment" : 0,
+  "promotion" : 0,
+  "paygrade" : 0,
+  "effectivedate" : "2017-12-31T18:30:00.000Z",
+  "totalIncrease" : 0,
+  "finalAnnualSalary" : 0,
+  "stiamount" : 0,
+  "target" : [ 
+      {
+          "amount" : 95000,
+          "abs" : 95000,
+          "percentage" : 1,
+          "_id" : "5a184fb94983cf43c8da68a3"
+      }
+  ],
+  "sti" : [],
+  "__v" : 0
+}
+]

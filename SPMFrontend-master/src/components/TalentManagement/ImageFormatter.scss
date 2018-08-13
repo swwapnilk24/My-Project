@@ -1,0 +1,27 @@
+.toggler2 .toggler-content {
+  display: none !important;
+}
+.toggler2.show .toggler-content {
+  display: block !important;  
+}
+.toggler2 .toggler-content .react-grid-Row {
+  height: 100px !important;
+}
+.toggler2.show .toggler-content {
+  display: block !important;  
+}
+.imageTag {
+  margin-left: 5px ;
+}
+.personTag {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #175d9d;
+  font-size: 14px;
+}
+.personTagNew {
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #175d9d !important;
+  font-size: 12px !important;
+}

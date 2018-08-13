@@ -1,0 +1,296 @@
+.tree {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+.tree ul {
+	padding-top: 20px
+}
+.tree li, .tree ul {
+	position: relative;
+	-webkit-transition: all .5s;
+	transition: all .5s
+}
+.tree li {
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	padding: 20px
+}
+.tree li:after, .tree li:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	right: 50%;
+	border-top: 1px solid #cbdbe9;
+	width: 50%;
+	height: 20px
+}
+.tree .tree-dotted:before {
+	border-right: 1px dotted red
+}
+.tree li:after {
+	right: auto;
+	left: 50%;
+	border-left: 1px solid #ccc
+}
+.tree li:only-child:after, .tree li:only-child:before {
+	display: none
+}
+.tree li:only-child {
+	padding-top: 0
+}
+.tree li:first-child:before, .tree li:last-child:after {
+	border: 0 none
+}
+.tree li:last-child:before {
+	border-right: 1px solid #ccc;
+	border-radius: 0 5px 0 0
+}
+.tree li:first-child:after {
+	border-radius: 5px 0 0 0
+}
+.tree ul ul:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 50%;
+	border-left: 1px solid #ccc;
+	width: 0;
+	height: 20px
+}
+.tree ul ul ul {
+	max-width: 140px
+}
+.tree ul ul ul li {
+	float: left;
+	text-align: center;
+	list-style-type: none;
+	position: relative;
+	padding: 0 5px 10px;
+	border-left: 1px solid #ccc;
+	border-left: 0;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	margin-left: 10px;
+	top: -10px
+}
+.tree ul ul ul li:before {
+	border-top: 1px solid #ccc;
+	position: relative;
+	top: 20%;
+	width: 10%
+}
+.tree ul ul ul li:after {
+	right: auto;
+	left: -1px;
+	border-left: 1px solid #ccc;
+	border-bottom: 1px;
+	height: 70px
+}
+.tree ul ul ul li:only-child:after, .tree ul ul ul li:only-child:before {
+	display: none
+}
+.tree ul ul ul li:only-child {
+	padding-top: 0
+}
+.tree ul ul ul li:first-child:before, .tree ul ul ul li:last-child:after {
+	border: none
+}
+.tree ul ul ul li:last-child:after {
+	border-bottom: 1px solid #ccc;
+	top: -52px;
+	width: 7px
+}
+.tree ul ul ul li:last-child:before {
+	border-right: 0;
+	border-radius: 0 0 0 0
+}
+.tree ul ul ul li:first-child:after {
+	border-radius: 0 0 0 0
+}
+.tree ul ul ul:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 9px;
+	border-left: 1px solid #ccc;
+	width: 0;
+	height: 100px
+}
+.tree ul ul ul li img {
+	margin: 0;
+	padding: 0;
+	padding-right: 3px
+}
+.tree li a {
+	padding-bottom: 22px;
+	border: 1px solid #cbdbe9;
+	text-decoration: none;
+	color: #666;
+	font-size: 12px;
+	display: inline-block;
+	position: relative;
+	-webkit-transition: all .5s;
+	transition: all .5s;
+	-webkit-box-shadow: 0 0 30px rgba(23,93,157,.15);
+	box-shadow: 0 0 30px rgba(23,93,157,.15);
+	background-color: #fff;
+	-webkit-transform: perspective(200px);
+	transform: perspective(200px)
+}
+.tree li a:hover {
+	-webkit-box-shadow: 10px 10px 30px rgba(23,93,157,.25);
+	box-shadow: 10px 10px 30px rgba(23,93,157,.25);
+	-webkit-transform: rotateY(15deg);
+	transform: rotateY(15deg)
+}
+.tree li a {
+	max-width: 150px
+}
+.tree li a img {
+	float: left;
+	max-width: 100%
+}
+.tree-person-desc {
+	min-height: 65px;
+	padding: 5px 0;
+	clear: both;
+	background-color: #fff
+}
+.tree-person-name {
+	font-size: 16px;
+	text-transform: none;
+	font-weight: 600;
+	color: #175d9d
+}
+.tree-person-position {
+	font-weight: 500;
+	padding: 3px 0
+}
+.tree-person-counter {
+	background-color: #f4f7fa;
+	padding: 5px 0;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	border-top: 1px solid #e8f0fa
+}
+.tree-person-additional {
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	color: #175d9d
+}
+.tree-icon svg {
+	width: 15px;
+	height: 15px
+}
+
+.ReactModal__Overlay {
+	top:0px !important;
+	left:0px !important;
+	right:0px !important;
+	z-index:999;
+	width:100%;
+	height:100%;
+  }
+  .ReactModal__Content {
+	left:40% !important;
+	width:30%;
+	height:69vh !important;
+	padding:0px !important;
+  }
+  .ReactModal__Content .card-success {
+	background-color: transparent !important;
+	border-color: transparent !important;
+  }
+  .card-header {
+    background-color: #666 !important;
+    color: #fff;
+    font-weight: bold;
+    height: 36px;
+    line-height: 22px;
+  }
+  .card-header button {
+	color: #fff;
+  }
+  .dangerError {
+	color: red;
+	font-size: 12px;
+  }
+ .modal-input {
+   float: right;
+   margin-right: 10%;
+   width: 60%;
+ }
+ .slider{
+   width: 30%;
+   position: absolute;
+   z-index: 10;
+   background-color: white;
+   min-height: 13%;
+   margin-left: 1%;
+ }
+ .slider .rangeslider{
+  width: 80%;
+ }
+ .slider_value{
+  float: right;
+  margin: -10% 7%;
+ }
+ .budget_view_options{
+   width: 25%;
+ }
+ .hierarchy_view_options{
+   width: 12%;
+ }
+ .grid_view_options{
+   width: 12%;
+ }
+ .version_selection{
+   width: 20%;
+ }
+ .version_selection select{
+   width: inherit;
+ }
+ .hidden{
+   display: none;
+ }
+ #tableview{
+  margin-top: 5%;
+ }
+ #gridview{
+   margin-top: 5%;
+ }
+ .addButton {
+  background: none;
+  border: none;
+  padding:0px;
+  cursor: pointer;
+}
+.addButton i.fa {
+  color:#175d9d;
+  font-size: 20px;
+}
+.btn-delete{
+  margin-left: 20px;
+}
+.btn-delete svg{
+  width: 12px;
+}
+.version_add{ 
+  float: left;
+  width: 20px;
+}

@@ -1,0 +1,26 @@
+.PC-actions, .PC-actions li {
+    display: inline-block !important;
+}
+.PC-dropdown {
+    right: 25% !important;
+}
+.form-fields .form-group {
+    margin-bottom: 0px;
+}
+.form-fields .form-group input[type="text"], .form-fields .form-group select {
+    margin-bottom: 5px !important;
+}
+.table-align span {
+    text-align: left;
+}
+.percent-bubble {
+    width:25px;
+    height:25px;
+    border-radius: 50%;
+    background: red;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+    font-size: 12px;
+    font-weight: bold;
+}
