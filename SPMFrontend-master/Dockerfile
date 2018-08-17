@@ -10,7 +10,7 @@ RUN npm install --quiet
 
 COPY . .
 
-RUN node --max_old_space_size=4096 ../node_modules/webpack/bin/webpack.js --env prod
+RUN node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js --env prod
 
 FROM httpd:2.4
 
