@@ -10,10 +10,10 @@ RUN npm install --quiet
 
 COPY . .
 # RUN npm install -g increase-memory-limit
-RUN node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js --env prod
+#RUN node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js --env prod
+CMD ["npm", "run", "startdev"]
+#FROM httpd:2.4
 
-FROM httpd:2.4
+#COPY --from=builder /usr/src/app/dist-prod/* /usr/local/apache2/htdocs/
 
-COPY --from=builder /usr/src/app/dist-prod/* /usr/local/apache2/htdocs/
-
-EXPOSE 80
+EXPOSE 8080
