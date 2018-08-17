@@ -7,7 +7,7 @@ WORKDIR /usr/src/app
 COPY ./* ./
 
 RUN npm install --quiet
-
+RUN npm install -g increase-memory-limit
 COPY . .
 
 RUN node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js --env prod
