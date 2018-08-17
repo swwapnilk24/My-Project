@@ -3,19 +3,19 @@ services:
   frontend:
     container_name: frontend
     restart: always
-    build: /home/mcbitss/SPM-Docker/SPMFrontend-master
+    build: ./SPMFrontend-master
     ports:
-      - "127.0.0.1:8080:80"
+      - "8080:80"
     depends_on:
       - app
 
   app:
     container_name: app
     restart: always
-    build: /home/mcbitss/SPM-Docker/SPMAPI-master
+    build: ./SPMAPI-master
     command: npm run dev
     ports:
-      - "127.0.0.1:9000:9000"
+      - "9000:9000"
     depends_on:
       - mongo
 
@@ -25,6 +25,6 @@ services:
     volumes:
       - ./data:/data/db
     ports:
-      - "127.0.0.1:27017:27017"
+      - "27017:27017"
   
 
