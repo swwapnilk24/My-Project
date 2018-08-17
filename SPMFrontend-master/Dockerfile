@@ -9,7 +9,7 @@ COPY ./* ./
 RUN npm install --quiet
 
 COPY . .
-RUN npm install -g increase-memory-limit
+# RUN npm install -g increase-memory-limit
 RUN node --max_old_space_size=4096 ./node_modules/webpack/bin/webpack.js --env prod
 
 FROM httpd:2.4
